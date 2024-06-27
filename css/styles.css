@@ -1,0 +1,34 @@
+/* reset css */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    outline: 1px solid salmon;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    text-align: center;
+}
+
+header,
+footer {
+    background: #333;
+    color: #eee;
+}
+
+header {
+    padding: 2rem;
+}
+
+footer {
+    padding: 1rem;
+}
